@@ -11,9 +11,7 @@ const ForgotPassword = () => {
         <Text style={styles.mainHeading}>Forgot {"\n"} password</Text>
       </View>
 
-      <View style={{
-      borderRadius: 0
-    }}>
+      <View style={styles.xOfrVNTV}>
       <View style={styles.newPassword}>
         <Text style={styles.newpasswordText}>Set new password for your account.</Text>
       </View>
@@ -86,6 +84,9 @@ const styles = StyleSheet.create({
   backText: {
     fontWeight: "600",
     fontSize: 20
+  },
+  xOfrVNTV: {
+    borderRadius: 0
   }
 });
 export default ForgotPassword;
